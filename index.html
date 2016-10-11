@@ -10,13 +10,98 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<!--SIDEBAR-->
+	<div id="wrapper">
+		<div id="sidebar-wrapper" class="blue-grey darken-4">
+			
+	        <ul class="sidebar-nav">
+	            <li>
+	            	<div id="info-user-menu">
+	            		<img src="img/joao.png" class="circle center" alt="" id="perfil-sidebar">
+	            		<h6 class="white-text user-name-menu center user-name-menu">Gabriel Senna</h6>
+	            	</div>
+	            </li>
+	            <li class="collection-item search-component">
+	            	<form action="">
+	            		<div class="input-field row search-field">
+	            			<input type="text" name="search" class="white-text">
+	            			<label for="search">Buscar</label>
+	            			<button type="submit" class="btn blue ligthen-1" style="width:100%;">
+	            				<i class="material-icons">search</i>
+	            			</button>
+	            		</div>
+	            	</form>
+	            </li>
+	            <li class="ident">
+	            	<a href="javascript:void(0)" class="master-menu">
+	            		Usuário
+	            		<i class="material-icons right">add</i>
+	            	</a>
+	            	<ul class="child-menu blue-grey darken-3">
+	            		<li>
+	            			<a href="#">
+	            				<span>
+	            					Mensagens
+	            				</span>
+	            				<i class="material-icons right">person</i>
+	            			</a>
+	            		</li>
+	            		<li>
+	            			<a href="#">
+	            				<span>
+	            					Configurações
+	            				</span>
+	            				<i class="material-icons right">settings</i>
+	            			</a>
+	            		</li>
+	            		<li>
+	            			<a href="#">
+	            				<span>
+	            					Logout
+	            				</span>
+	            				<i class="material-icons right">keyboard_tab</i>
+	            			</a>
+	            		</li>
+	            	</ul>
+	            </li>
+	            <li class="ident">
+	            	<a href="javascript:void(0)" class="master-menu">
+	            		Matérias
+	            		<i class="material-icons right">add</i>
+	            	</a>
+	            	<ul class="child-menu blue-grey darken-3">
+	            		<li>
+	            			<a href="#">
+	            				<span>
+	            					Mais lidas
+	            				</span>
+	            				<i class="material-icons right">trending_up</i>
+	            			</a>
+	            		</li>
+	            		<li>
+	            			<a href="#">
+	            				<span>
+	            					Mais recentes
+	            				</span>
+	            				<i class="material-icons right">watch_later</i>
+	            			</a>
+	            		</li>
+	            	</ul>
+	            </li>
+	            <li class="ident">
+	            	<a href="#">Vídeos<i class="material-icons right">movie</i></a>
+	            </li>
+	        </ul>
+	    </div>	
+	</div>
+	
 	<!--HEADER-->
 	<header class="navbar-fixed">
 	    <nav class="blue darken-1">
 		    <div class="nav-wrapper">
 		        <ul class="left">
 		       		<li>
-		       			<a href="#"><i class="material-icons">dehaze</i></a>
+		       			<a href="javascript:void(0)" id="btn-sidebar"><i class="material-icons tiny">dehaze</i></a>
 		       		</li>
 		        	<li>
 		        		<a href="#" id="logo-header">CURSO MATERIALIZE</a>
@@ -284,33 +369,6 @@
 	</div>
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/materialize.min.js"></script>
-  	<script>
-  		var dadosBusca = {
-  			'Ué': null,
-  			'Uélson': null,
-  			'Uélsinnnnnnnnnnnnn': null,
-  			'Uée': null
-  		};
-
-  		function callParallax(){
-  			$('.parallax').parallax();
-
-  			$('.dropdown-button').dropdown({
-			      	belowOrigin: true, // Displays dropdown below the button
-				    alignment: 'right' // Displays dropdown with edge aligned to the left of button
-    		});
-  		}
-
-  		$(document).ready(function(){
-  			$('input#search').autocomplete({
-    			data: dadosBusca
-  			});
-  			$('.modal-msg-trigger').leanModal();
-
-  			
-  		});
-
-		window.onload = callParallax();
-  	</script>
+  	<script src="js/app.js"></script>
 </body>
 </html>
