@@ -1,0 +1,86 @@
+.mini-perfil{
+	width: 37px;
+	margin-top: 12px;
+	margin-right: 20px;
+	position: absolute;
+}
+
+.match-parent{
+	max-height: 100%;
+}
+
+#profile-name{
+	margin-left: 60px;
+}
+
+#logo-header{
+	font-size: 18px;
+}
+
+.parallax-text{
+	width: 100%;
+}
+.parallax-container {
+      height: 500px;
+}
+
+.main-text{
+	margin-top: 160px;
+}
+
+.card-image-cover{
+	width: 100%;
+}
+
+.add-btn-flt{
+	position: absolute;
+	top: 55%;
+	right: 10%;
+}
+
+
+.autocomplete-content{
+	position: absolute;
+}
+
+.row.no-space-row{
+	margin-bottom: 0;
+}
+
+label.active{
+	color: #42a5f5 !important;
+}
+
+input:not([type]):focus:not([readonly]), 
+input[type=text]:focus:not([readonly]), 
+input[type=password]:focus:not([readonly]), 
+input[type=email]:focus:not([readonly]), 
+input[type=url]:focus:not([readonly]), 
+input[type=time]:focus:not([readonly]), 
+input[type=date]:focus:not([readonly]), 
+input[type=datetime]:focus:not([readonly]), 
+input[type=datetime-local]:focus:not([readonly]), 
+input[type=tel]:focus:not([readonly]), 
+input[type=number]:focus:not([readonly]), 
+input[type=search]:focus:not([readonly]), 
+textarea.materialize-textarea:focus:not([readonly]) {
+	border-bottom: 1px solid #42a5f5 !important;
+}
+
+.page-footer{
+	margin-top: 0 !important;
+}
+
+#redes-sociais li{
+	width: 40px;
+	float: left;
+	margin-right: 20px;
+}
+
+.img-msg{
+	width: 30px;
+}
+
+.dropdown-content{
+	top:64px !important;
+}

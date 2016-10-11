@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Aula de Materialize</title>
+	<link rel="stylesheet" href="css/icons.css">
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!--HEADER-->
+	<header class="navbar-fixed">
+	    <nav class="blue darken-1">
+		    <div class="nav-wrapper">
+		        <ul class="left">
+		       		<li>
+		       			<a href="#"><i class="material-icons">dehaze</i></a>
+		       		</li>
+		        	<li>
+		        		<a href="#" id="logo-header">CURSO MATERIALIZE</a>
+		        	</li>
+		        </ul>
+		        <ul class="right hide-on-med-and-down">
+		        	<li>
+		        		<a href="#modal-msg" class="modal-msg-trigger">
+		        			<i class="material-icons left">mail</i>
+		        			<span class="new badge amber">4</span>
+		        		</a>
+		        	</li>
+		          	<li>
+		          		<a href="#" class="match-parent dropdown-button" data-activates="dropdown-user">
+		          			<img src="img/joao.png" alt="Perfil" class="mini-perfil circle">
+		          			<span class="white-color" id="profile-name">Gabriel Senna</span>
+		          			<i class="material-icons right">arrow_drop_down</i>
+		        		</a>
+		        		<ul class="dropdown-content" id="dropdown-user">
+		        			<li>
+		        				<a href="#">Perfil</a>
+		        			</li>
+		        			<li>
+		        				<a href="#">Configurações</a>
+		        			</li>
+		        			<li>
+		        				<a href="#">Logout</a>
+		        			</li>
+		        		</ul>
+		          	</li>
+		        </ul>
+		    </div>
+	    </nav>
+  	</header>
+	<!--MAIN-->
+	<main>
+		<!--PARALLAX-->
+		<div class="parallax-container">
+			<div class="parallax-text">
+				<div class="container">
+					<h2 class="center white-text main-text">Programador Honesto</h2>
+					<h5 class="center white-text light">Seja muito bem vindo, meu amigo programador!</h5>
+				</div>
+			</div>
+	   		<div class="parallax">
+	    		<img src="img/parallax.jpg">
+	    	</div>
+		</div>
+		<!--SECTION-->
+		<div class="container">
+			<!--ARTIGOS-->
+			<br>
+			<h5>Mais recentes</h5>
+			<div class="row section no-space-row">
+				<div class="col l4 m12 s12">
+					<div class="card small">
+						<div class="card-image waves-effect waves-light card-image-cover">
+							<img src="img/img-1.jpg" alt="">
+						</div>
+						<div class="card-content">
+							<a href="#" class="btn-floating add-btn-flt amber darken-1"><i class="material-icons">add</i></a>
+							<span class="card-title truncate">A importância da programação</span>
+						</div>
+					</div>
+				</div>
+				<div class="col l4 m12 s12">
+					<div class="card small">
+						<div class="card-image waves-effect waves-light card-image-cover">
+							<img src="img/img-2.jpg" alt="">
+						</div>
+						<div class="card-content">
+							<a href="#" class="btn-floating add-btn-flt amber darken-1"><i class="material-icons">add</i></a>
+							<span class="card-title truncate">Por que usar MaterializeCss nos seus projetos?</span>
+						</div>
+					</div>
+				</div>
+				<div class="col l4 m12 s12">
+					<div class="card small">
+						<div class="card-image waves-effect waves-light card-image-cover">
+							<img src="img/img-3.jpg" alt="">
+						</div>
+						<div class="card-content">
+							<a href="#" class="btn-floating add-btn-flt amber darken-1"><i class="material-icons">add</i></a>
+							<span class="card-title truncate">As vantagens de usar Vue.js</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="btn waves-effects blue white-text">Mais matérias</a>			
+		</div>
+		<br>
+		<div class="row section no-space-row blue-grey darken-4">
+			<div class="container">
+				<h5 class="white-text">Vídeo-aulas</h5>
+				<div class="row">
+					<div class="col s12 l6">
+						<div class="video-container">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/dz1eyP847gU" frameborder="0" allowfullscreen>
+							
+							</iframe>	
+						</div>						
+					</div>
+					<div class="col s12 l6">
+						<h5 class="white-text condensed">Iniciando no Desenvolvimento Web</h5>
+						<p class="white-text flow-text">
+							Primeiro vídeo do canal, onde falo um pouco sobre minha experiência sobre desenvolvimento web!
+						</p>
+						<small class="white-text">
+							Tempo: 9:50
+						</small>
+						<br>
+						<br>
+						<a href="javascript:void(0)" class="btn white blue-text waves-effect">Mais vídeos</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--USUARIOS-->
+		<div class="row section no-space-row">
+			<div class="container">
+				<h5>Depoimentos</h5>
+				<div class="row section">
+					<div class="col s12 m12 l4">
+						<div class="card-panel hoverable">
+							<div class="row valign-wrapper no-space-row">
+								<div class="col s2">
+									<img src="img/joao.png" alt="" class="circle responsive-img">
+								</div>
+								<div class="col s10">
+									<span class="black-text">
+										<i class="light">"Gostei muito da vídeo aula. Meus parabéns, bonitão! Vou voltar aqui todo dia pra te dar um beijo na boca virtual!"</i>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m12 l4">
+						<div class="card-panel">
+							<div class="row valign-wrapper no-space-row">
+								<div class="col s2">
+									<img src="img/joao.png" alt="" class="circle responsive-img">
+								</div>
+								<div class="col s10">
+									<span class="black-text">
+										<i class="light">"Você é lindo! Eu não entendo nada, mas vc é maravilhoso!"</i>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m12 l4">
+						<div class="card-panel">
+							<div class="row valign-wrapper no-space-row">
+								<div class="col s2">
+									<img src="img/joao.png" alt="" class="circle responsive-img">
+								</div>
+								<div class="col s10">
+									<span class="black-text">
+										<i class="light">"Estou apaixonada!"</i>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!--FOOTER-->
+	<footer class="page-footer grey lighten-4">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 m12 s12">
+					<h5>Inscreva-se para receber as novidades!</h5>
+					<form action="">
+						<div class="row no-space-row">
+							<div class="input-field col l6 s12">
+								<input type="text" name="nome">
+								<label for="nome">Digite seu nome</label>
+							</div>	
+						</div>
+						<div class="row no-space-row">
+							<div class="input-field col l6 s12">
+								<input type="text" name="email">
+								<label for="email">Digite seu email</label>
+							</div>	
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<button type="submit" class="btn blue darken-1">Enviar</button>
+							</div>	
+						</div>
+					</form>
+				</div>
+				<div class="col l6 m12 s12">
+					<h5>Siga-nos nas redes sociais!</h5>
+					<div class="row">
+						<div class="col s12">
+							<ul id="redes-sociais">
+								<li>
+									<a href="javascript:void(0)">
+										<img src="img/youtube.png" class="responsive-img" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)">
+										<img src="img/facebook.png" class="responsive-img" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)">
+										<img src="img/twitter.png" class="responsive-img" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)">
+										<img src="img/instagram.png" class="responsive-img" alt="">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright blue darken-1">
+			<div class="container">
+				<h6 class="center" style="margin-top:16px;">
+					&copy;Programador Honesto - Todos os direitos reservados.
+				</h6>
+			</div>
+		</div>
+	</footer>
+	<!--MODAL FOOT-->
+	<div id="modal-msg" class="modal bottom-sheet">
+		<div class="modal-content">
+			<h5>Suas mensagens</h5>
+			<ul class="collection">
+				<li class="collection-item avatar">
+					<img src="img/joao.png" alt="" class="img-msg circle">
+					<strong>José</strong>
+					<p class="light">Fala aí, cara! Fala comigo!</p>
+					<a href="#" class="secondary-content"><i class="material-icons red-text text-lighten-2">delete</i></a>
+				</li>
+				<li class="collection-item avatar">
+					<img src="img/joao.png" alt="" class="img-msg circle">
+					<strong>José</strong>
+					<p class="light">Fala aí, cara! Fala comigo!</p>
+					<a href="#" class="secondary-content"><i class="material-icons red-text text-lighten-2">delete</i></a>
+				</li>
+				<li class="collection-item avatar">
+					<img src="img/joao.png" alt="" class="img-msg circle">
+					<strong>José</strong>
+					<p class="light">Fala aí, cara! Fala comigo!</p>
+					<a href="#" class="secondary-content"><i class="material-icons red-text text-lighten-2">delete</i></a>
+				</li>
+				<li class="collection-item avatar">
+					<img src="img/joao.png" alt="" class="img-msg circle">
+					<strong>José</strong>
+					<p class="light">Fala aí, cara! Fala comigo!</p>
+					<a href="#" class="secondary-content"><i class="material-icons red-text text-lighten-2">delete</i></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+  	<script>
+  		var dadosBusca = {
+  			'Ué': null,
+  			'Uélson': null,
+  			'Uélsinnnnnnnnnnnnn': null,
+  			'Uée': null
+  		};
+
+  		function callParallax(){
+  			$('.parallax').parallax();
+
+  			$('.dropdown-button').dropdown({
+			      	belowOrigin: true, // Displays dropdown below the button
+				    alignment: 'right' // Displays dropdown with edge aligned to the left of button
+    		});
+  		}
+
+  		$(document).ready(function(){
+  			$('input#search').autocomplete({
+    			data: dadosBusca
+  			});
+  			$('.modal-msg-trigger').leanModal();
+
+  			
+  		});
+
+		window.onload = callParallax();
+  	</script>
+</body>
+</html>
